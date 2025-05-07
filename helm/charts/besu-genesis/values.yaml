@@ -29,6 +29,7 @@ rawGenesisConfig:
   genesis:
     config:
       chainId: 1337
+      contractSizeLimit: 2147483647
       algorithm:
         consensus: qbft
         blockperiodseconds: 10
