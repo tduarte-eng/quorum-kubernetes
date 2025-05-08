@@ -72,6 +72,7 @@ node:
       discovery: true
       staticNodes: "/config/static/static-nodes.json"
       maxPeers: 25
+      minGas: 0
     rpc:
       enabled: true
       host: "0.0.0.0"
