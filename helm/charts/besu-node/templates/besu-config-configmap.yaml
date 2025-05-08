@@ -34,6 +34,7 @@ data:
     p2p-host={{ .Values.node.besu.p2p.host | quote }}
     p2p-port={{ .Values.node.besu.p2p.port }}
     max-peers={{ .Values.node.besu.p2p.maxPeers }}
+    min-gas-price={{ .Values.node.besu.p2p.minGas }}
     {{ end }}
 
     {{ if or .Values.node.besu.rpc.enabled .Values.node.besu.graphql.enabled .Values.node.besu.ws.enabled }}
